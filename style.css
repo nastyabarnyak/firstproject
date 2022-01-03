@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 10px 20px;
+    align-items: center;
+}
+.nash-list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+ul li{
+    /* display: inline-block; */
+    margin-left: 20px;
+}
+.nash-list li{
+    margin-top: 15px;
+    margin-left: 10px;
+    border: white;
+    padding: 5px;
+    font-family: arial;
+}
+.nash-list li a{
+    text-decoration: none;
+    color: white;
+}
+.dot:before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 7.5px;
+    background-color: white;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.leftpic {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 4px;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.number {
+    width: 20px;
+    height: 20px;
+}
+li {
+    color: white; 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+li:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
